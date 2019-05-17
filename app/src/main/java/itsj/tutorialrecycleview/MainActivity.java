@@ -71,6 +71,9 @@ class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
         }
     }
 
+    public AnimeAdapter(List<Anime> items) {
+        this.items = items;
+    }
 
 
 }
