@@ -31,4 +31,9 @@ public class MainActivity extends AppCompatActivity {
 
 class Anime {
 
+    private int imagen;
+    private String nombre;
+    private int visitas;
+
+
 }
