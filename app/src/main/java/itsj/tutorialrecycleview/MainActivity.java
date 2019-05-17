@@ -75,5 +75,21 @@ class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
         this.items = items;
     }
 
+    @Override
+    public int getItemCount() {
+        return items.size();
+    }
 
+    @Override
+    public AnimeViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
+        View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.anime_card, viewGroup, false);
+        return new AnimeViewHolder(v);
+    }
+
+    @Override
+    public void onBindViewHolder(AnimeViewHolder viewHolder, int i) {
+        viewHolder.imagen.setImageResource(items.get(i).getImagen());
+        viewHolder.nombre.setText(items.get(i).getNombre());
+        viewHolder.visitas.setText("Visitas:"+String.valueOf(items.get(i).getVisitas()));
+    }
 }
