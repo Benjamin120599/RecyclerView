@@ -56,5 +56,10 @@ class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
 
     private List<Anime> items;
 
+    public static class AnimeViewHolder extends RecyclerView.ViewHolder {
+
+    }
+
+
 
 }
