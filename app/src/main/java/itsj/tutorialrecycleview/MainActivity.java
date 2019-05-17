@@ -63,6 +63,12 @@ class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
         public TextView nombre;
         public TextView visitas;
 
+        public AnimeViewHolder(View v) {
+            super(v);
+            imagen = (ImageView) v.findViewById(R.id.imagen);
+            nombre = (TextView) v.findViewById(R.id.nombre);
+            visitas = (TextView) v.findViewById(R.id.visitas);
+        }
     }
 
 
