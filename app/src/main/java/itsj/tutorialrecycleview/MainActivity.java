@@ -58,6 +58,11 @@ class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
 
     public static class AnimeViewHolder extends RecyclerView.ViewHolder {
 
+        // Campos respectivos de un item
+        public ImageView imagen;
+        public TextView nombre;
+        public TextView visitas;
+
     }
 
 
