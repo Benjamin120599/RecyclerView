@@ -26,6 +26,15 @@ public class MainActivity extends AppCompatActivity {
 
         // Inicializar Animes
         List items = new ArrayList();
+
+        items.add(new Anime(R.drawable.angel, "Angel Beats", 230));
+        items.add(new Anime(R.drawable.death, "Death Note", 456));
+        items.add(new Anime(R.drawable.fate, "Fate Stay Night", 342));
+        items.add(new Anime(R.drawable.nhk, "Welcome to the NHK", 645));
+        items.add(new Anime(R.drawable.suzumiya, "Suzumiya Haruhi", 459));
+
+
+
     }
 }
 
