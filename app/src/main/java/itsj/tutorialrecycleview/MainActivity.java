@@ -33,7 +33,9 @@ public class MainActivity extends AppCompatActivity {
         items.add(new Anime(R.drawable.nhk, "Welcome to the NHK", 645));
         items.add(new Anime(R.drawable.suzumiya, "Suzumiya Haruhi", 459));
 
-
+        // Obtener el Recycler
+        recycler = (RecyclerView) findViewById(R.id.reciclador);
+        recycler.setHasFixedSize(true);
 
     }
 }
