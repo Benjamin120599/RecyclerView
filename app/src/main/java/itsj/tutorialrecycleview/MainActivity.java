@@ -26,9 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Inicializar Animes
         List items = new ArrayList();
-
-
     }
+}
 
+class Anime {
 
 }
