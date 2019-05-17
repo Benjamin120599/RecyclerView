@@ -54,5 +54,7 @@ class Anime {
 
 class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
 
+    private List<Anime> items;
+
 
 }
