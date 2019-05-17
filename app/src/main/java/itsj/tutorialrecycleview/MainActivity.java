@@ -41,6 +41,9 @@ public class MainActivity extends AppCompatActivity {
         lManager = new LinearLayoutManager(this);
         recycler.setLayoutManager(lManager);
 
+        // Crear un nuevo adaptador
+        adapter = new AnimeAdapter(items);
+        recycler.setAdapter(adapter);
     }
 }
 
