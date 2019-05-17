@@ -44,12 +44,15 @@ class Anime {
     public String getNombre() {
         return nombre;
     }
-
     public int getVisitas() {
         return visitas;
     }
-
     public int getImagen() {
         return imagen;
     }
+}
+
+class AnimeAdapter extends RecyclerView.Adapter<AnimeAdapter.AnimeViewHolder> {
+
+
 }
